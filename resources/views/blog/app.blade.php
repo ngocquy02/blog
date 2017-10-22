@@ -8,14 +8,17 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="{{asset('materialize/css/materialize.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('css/styles.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/search.css')}}">
 
 </head>
 <body>
-	<nav class="light-blue lighten-1">
+	<nav class=" nav-top lighten-1">
 		<div class="nav-wrapper container">
 			<a href="#!" class="brand-logo">Logo</a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			
+			<form>
+				<input type="text" name="" id="input" class="form-control" value="" required="required" pattern="" title="">
+			</form>
 			<ul class="right hide-on-med-and-down">
 				
 				<li><a href="sass.html">Sass</a></li>
@@ -26,7 +29,31 @@
 		</div>
 	</nav>
 	<div class="container">
-		
+		<div class="row">
+	        <div class="menu-left col-12 col-md-3 col-xl-3">
+	        	<div class="info-author">
+	        		<h2 class="menu-h2">Danh mục</h2>
+	        		<ul class="list-group">
+		        		<li class="list-group-item">
+							<a href="">salkjáhd</a>
+		        		</li>
+	        		</ul>
+	        	</div>
+				
+	        	<div class="info-author">
+	        		<h2 class="menu-h2">Chuyên mục</h2>
+	        		<ul class="list-group">
+		        		<li class="list-group-item">
+							<a href="">salkjáhd</a>
+		        		</li>
+	        		</ul>
+	        	</div>
+	        	
+	        </div>
+	        <div class="content col-md-9">
+	        	
+	        </div>
+      	</div>
 	</div>
           
 
